@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donors Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20% 0;
+        }
+
+        h1 {
+            color: #e50000;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #e50000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Donors Registration</h1>
+    
+    <p>Thank you for your interest in becoming a donor. Please click the button below to fill out the registration form:</p>
+    
+    <button onclick="redirectToGoogleForm()">Register Now</button>
+
+    <script>
+        function redirectToGoogleForm() {
+            window.location.href = 'https://forms.gle/Gs2rvzXfRi5Xnx716';
+        }
+    </script>
+
+</body>
+</html>
